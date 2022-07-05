@@ -1,3 +1,8 @@
 set lldb string print length to  10000
 
 command : set set target.max-string-summary-length 10000
+
+
+show memory content:
+
+command:  memory read buffer
