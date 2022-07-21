@@ -3,7 +3,25 @@ set lldb string print length to  10000
 command : set set target.max-string-summary-length 10000
 
 
-show memory content:
+显示内存地址内存:
 
 command:  memory read 0x内存地址
 command:  memory read &变量名称
+
+
+修改或显示变量值：
+bool is_ok = true；
+
+显示  ：
+(lldb) expression is_ok
+(bool) $4 = true
+
+修改  ：
+(lldb) expression is_ok=false
+(bool) $5 = false
+
+显示：
+(lldb) expression is_ok
+(bool) $6 = false
+
+
