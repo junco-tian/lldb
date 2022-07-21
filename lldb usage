@@ -5,4 +5,5 @@ command : set set target.max-string-summary-length 10000
 
 show memory content:
 
-command:  memory read buffer
+command:  memory read 0x内存地址
+command:  memory read &变量名称
