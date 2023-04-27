@@ -1,4 +1,4 @@
-set lldb string print length to  10000
+ 设置 lldb string 打印长度 length to  10000
 
 command : set set target.max-string-summary-length 10000
 
