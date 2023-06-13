@@ -1,0 +1,5 @@
+adb shell setprop debug.ld.app.com.example.myapp dlerror,dlopen,dlsym
+adb logcat
+
+
+adb shell setprop debug.ld.all dlerror,dlopen
